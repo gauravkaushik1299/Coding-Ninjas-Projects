@@ -1,0 +1,30 @@
+{
+  "name": "postaway-api",
+  "version": "1.1.0",
+  "description": "Postaway - A modular social media REST API built with Express and in-memory data structures.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "social-media",
+    "jwt",
+    "nodejs"
+  ],
+  "author": "GK12",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
